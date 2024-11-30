@@ -1,11 +1,20 @@
+import java.util.ArrayList;
+
 public class apredendo {
     public static void main(String[] args) {
-        int oi = 2;
-        System.out.println("Hello, World!"+oi);
+        System.out.println("Hello, World!");
 
-        if (oi == 2){
-            System.out.println("ola"); //condição se.
-        }
+
+        ArrayList<String> nomes = new ArrayList<>();
+
+        nomes.add("vitorio");
+        nomes.add("lucas");
+
+        System.out.print(nomes.get(0)+" "+nomes.get(1));
+
+
+        byte[] numeros = {1,4,7,3};
+        System.out.println(numeros[2]);
 
 
     }
