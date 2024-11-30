@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e1fb2ea-90cf-403e-a6a5-f35c29bc05db" name="Changes" comment="estou testando a variavel">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeiro_codigo.java" beforeDir="false" />
-    </list>
+    <list default="true" id="9e1fb2ea-90cf-403e-a6a5-f35c29bc05db" name="Changes" comment="estou testando a variavel" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +55,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Vitorio.amc/Documents/GitHub/aula_de_java/aprendendo",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
     "settings.editor.splitter.proportion": "0.24770643"

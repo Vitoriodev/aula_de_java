@@ -3,5 +3,10 @@ public class apredendo {
         int oi = 2;
         System.out.println("Hello, World!"+oi);
 
+        if (oi == 2){
+            System.out.println("ola"); //condição se.
+        }
+
+
     }
 }
