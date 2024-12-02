@@ -44,6 +44,7 @@ public class Main {
 
             System.out.println();
 
+            //Resultado.
             System.out.println("Muito bem, você terminou o seu cadrasto vamos ver como ficou.");
             System.out.println("O seu nome é "+nome+" e tem "+idade+" anos.");
             System.out.println("Seu sexo é: "+sexoDefinido+" e você nasceu em "+pais);
