@@ -16,27 +16,42 @@ public class Main {
             System.out.print("qual o seu nome? ");
             String nome = input.next();
 
-            System.out.print("qual o seu sexo? (F) (M): ");
-            String sexo = input.next();
-
             String sexoDefinido;
-            if(sexo.equals("M") || sexo.equals("m")){
-                sexoDefinido = "Macho";
-            }else {
-                sexoDefinido = "Fêmea";
+            String sexo;
+            while (true){
+                System.out.print("qual o seu sexo? (F) (M): ");
+                sexo = input.next();
+
+                if(sexo.equals("M") || sexo.equals("m")){
+                    sexoDefinido = "Macho";
+                    break;
+                }else if((sexo.equals("F") || sexo.equals("f"))) {
+                    sexoDefinido = "Fêmea";
+                    break;
+                }else {
+                    System.out.println("ops algo deu errado tente novamente.");
+                }
             }
 
-            System.out.print("Você tem filhos? (S) (N) ");
-            String filho = input.next();
-
             int filhos;
-            if (filho.equals("S") || filho.equals("s")) {
-                System.out.print("quantos filhos você tem? ");
-                filhos = input.nextInt();
+            String filho;
+            while (true){
+                System.out.print("Você tem filhos? (S) (N) ");
+                filho = input.next();
 
+                if (filho.equals("S") || filho.equals("s")){
+                    System.out.print("quantos filhos você tem? ");
+                    filhos = input.nextInt();
+                    break;
 
-            } else {
-                filhos = 0;
+                }else if (filho.equals("N") || filho.equals("n")){
+                    filhos = 0;
+                    break;
+
+                }else {
+                    System.out.println("ops algo deu errado tente novamente.");
+                }
+
             }
 
             System.out.print("qual foi o país que você nasceu? ");
@@ -52,6 +67,5 @@ public class Main {
         } else {
             System.out.println("Você não tem idade suficiênte");
         }
-
     }
 }
